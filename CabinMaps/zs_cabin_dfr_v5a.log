@@ -1,0 +1,2439 @@
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop tiles for material ZPCUSTOMMATERIALS/FLOOR/ZPS_FLOORTILES003_GAR, using default
+Patching WVT material: maps/zs_cabin_dfr_v5a/harvest/slimz/blend_rockgrass01_tool_wvt_patch
+Patching WVT material: maps/zs_cabin_dfr_v5a/necrotales/blendgrassgravel001a_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2098 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.prt...Building visibility clusters...
+done (0)
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1719364 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15526 texinfos to 7281
+Reduced 588 texdatas to 525 (28258 bytes to 26039)
+Writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.bsp
+7 seconds elapsed
+
+
+
+16 threads
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.prt
+ 731 portalclusters
+2055 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1157 visible clusters (0.43%)
+Total clusters visible: 268812
+Average clusters visible: 367
+Building PAS...
+Average clusters audible: 686
+visdatasize:132317  compressed from 140352
+writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+22 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+PREP OK
+15865 faces
+61 degenerate faces
+585136 square feet [84259720.00 square inches]
+219 Displacements
+67299 Square Feet [9691172.00 Square Inches]
+15804 patches before subdivision
+72154 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10126981, max 1684
+transfer lists:  77.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(89540, 64376, 32529)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19249, 12599, 5456)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4934, 3146, 1122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1401, 902, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(452, 302, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(161, 113, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(63, 46, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(26, 20, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 9, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0116 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 214/4096        10272/196608   ( 5.2%) 
+brushes               4093/16384       49116/196608   (25.0%) 
+brushsides           37236/65536      297888/524288   (56.8%) 
+planes               29740/65536      594800/1310720  (45.4%) 
+vertexes             28607/65536      343284/786432   (43.7%) 
+nodes                 3069/65536       98208/2097152  ( 4.7%) 
+texinfos              7281/12288      524232/884736   (59.3%) 
+texdata                525/2048        16800/65536    (25.6%) 
+dispinfos              219/0           38544/0        ( 0.0%) 
+disp_verts            7491/0          149820/0        ( 0.0%) 
+disp_tris            10464/0           20928/0        ( 0.0%) 
+disp_lmsamples      190960/0          190960/0        ( 0.0%) 
+faces                15865/65536      888440/3670016  (24.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            14353/65536      803768/3670016  (21.9%) 
+leaves                3284/65536      105088/2097152  ( 5.0%) 
+leaffaces            18937/65536       37874/131072   (28.9%) 
+leafbrushes           6293/65536       12586/131072   ( 9.6%) 
+areas                   23/1024          184/8192     ( 2.2%) 
+surfedges           134665/512000     538660/2048000  (26.3%) 
+edges                85480/256000     341920/1024000  (33.4%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1568/32768       15680/327680   ( 4.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         35067/65536       70134/131072   (53.5%) 
+cubemapsamples          62/1024          992/16384    ( 6.1%) 
+overlays                30/512         10560/180224   ( 5.9%) 
+LDR lightdata         [variable]     4790284/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      132317/16777216 ( 0.8%) 
+entdata               [variable]      299172/393216   (76.1%) 
+LDR ambient table     3284/65536       13136/262144   ( 5.0%) 
+HDR ambient table     3284/65536       13136/262144   ( 5.0%) 
+LDR leaf ambient      7913/65536      221564/1835008  (12.1%) 
+HDR leaf ambient      3284/65536       91952/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/144764   ( 0.0%) 
+dtl prp lght          [variable]           1/154      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/51630    ( 0.0%) 
+pakfile               [variable]      138268/0        ( 0.0%) 
+physics               [variable]     1719364/4194304  (41.0%) 
+physics terrain       [variable]       40911/1048576  ( 3.9%) 
+
+Level flags = 0
+
+Total triangle count: 45024
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+20 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop tiles for material ZPCUSTOMMATERIALS/FLOOR/ZPS_FLOORTILES003_GAR, using default
+Patching WVT material: maps/zs_cabin_dfr_v5a/harvest/slimz/blend_rockgrass01_tool_wvt_patch
+Patching WVT material: maps/zs_cabin_dfr_v5a/necrotales/blendgrassgravel001a_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2098 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.prt...Building visibility clusters...
+done (0)
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1719364 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15526 texinfos to 7281
+Reduced 588 texdatas to 525 (28258 bytes to 26039)
+Writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.bsp
+6 seconds elapsed
+
+
+
+16 threads
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.prt
+ 731 portalclusters
+2055 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1157 visible clusters (0.43%)
+Total clusters visible: 268812
+Average clusters visible: 367
+Building PAS...
+Average clusters audible: 686
+visdatasize:132317  compressed from 140352
+writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+PREP OK
+15865 faces
+61 degenerate faces
+585136 square feet [84259720.00 square inches]
+219 Displacements
+67299 Square Feet [9691172.00 Square Inches]
+15804 patches before subdivision
+72154 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10126981, max 1684
+transfer lists:  77.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(89540, 64376, 32529)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19249, 12599, 5456)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4934, 3146, 1122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1401, 902, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(452, 302, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(161, 113, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(63, 46, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(26, 20, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 9, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0152 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 214/4096        10272/196608   ( 5.2%) 
+brushes               4093/16384       49116/196608   (25.0%) 
+brushsides           37236/65536      297888/524288   (56.8%) 
+planes               29740/65536      594800/1310720  (45.4%) 
+vertexes             28607/65536      343284/786432   (43.7%) 
+nodes                 3069/65536       98208/2097152  ( 4.7%) 
+texinfos              7281/12288      524232/884736   (59.3%) 
+texdata                525/2048        16800/65536    (25.6%) 
+dispinfos              219/0           38544/0        ( 0.0%) 
+disp_verts            7491/0          149820/0        ( 0.0%) 
+disp_tris            10464/0           20928/0        ( 0.0%) 
+disp_lmsamples      190960/0          190960/0        ( 0.0%) 
+faces                15865/65536      888440/3670016  (24.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            14353/65536      803768/3670016  (21.9%) 
+leaves                3284/65536      105088/2097152  ( 5.0%) 
+leaffaces            18937/65536       37874/131072   (28.9%) 
+leafbrushes           6293/65536       12586/131072   ( 9.6%) 
+areas                   23/1024          184/8192     ( 2.2%) 
+surfedges           134665/512000     538660/2048000  (26.3%) 
+edges                85480/256000     341920/1024000  (33.4%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1568/32768       15680/327680   ( 4.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         35067/65536       70134/131072   (53.5%) 
+cubemapsamples          62/1024          992/16384    ( 6.1%) 
+overlays                30/512         10560/180224   ( 5.9%) 
+LDR lightdata         [variable]     4790284/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      132317/16777216 ( 0.8%) 
+entdata               [variable]      299344/393216   (76.1%) 
+LDR ambient table     3284/65536       13136/262144   ( 5.0%) 
+HDR ambient table     3284/65536       13136/262144   ( 5.0%) 
+LDR leaf ambient      7913/65536      221564/1835008  (12.1%) 
+HDR leaf ambient      3284/65536       91952/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/144764   ( 0.0%) 
+dtl prp lght          [variable]           1/154      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/51630    ( 0.0%) 
+pakfile               [variable]      138268/0        ( 0.0%) 
+physics               [variable]     1719364/4194304  (41.0%) 
+physics terrain       [variable]       40911/1048576  ( 3.9%) 
+
+Level flags = 0
+
+Total triangle count: 45024
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+20 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop tiles for material ZPCUSTOMMATERIALS/FLOOR/ZPS_FLOORTILES003_GAR, using default
+Patching WVT material: maps/zs_cabin_dfr_v5a/harvest/slimz/blend_rockgrass01_tool_wvt_patch
+Patching WVT material: maps/zs_cabin_dfr_v5a/necrotales/blendgrassgravel001a_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (1)
+Find Visible Detail Sides...
+Merged 2098 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.prt...Building visibility clusters...
+done (0)
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1719364 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15526 texinfos to 7281
+Reduced 588 texdatas to 525 (28258 bytes to 26039)
+Writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.bsp
+7 seconds elapsed
+
+
+
+16 threads
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.prt
+ 731 portalclusters
+2055 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1155 visible clusters (0.43%)
+Total clusters visible: 268810
+Average clusters visible: 367
+Building PAS...
+Average clusters audible: 686
+visdatasize:132317  compressed from 140352
+writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+PREP OK
+15865 faces
+61 degenerate faces
+585136 square feet [84259720.00 square inches]
+219 Displacements
+67299 Square Feet [9691172.00 Square Inches]
+15804 patches before subdivision
+72154 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10126981, max 1684
+transfer lists:  77.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(89540, 64376, 32529)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19249, 12599, 5456)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4934, 3146, 1122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1401, 902, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(452, 302, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(161, 113, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(63, 46, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(26, 20, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 9, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0125 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 214/4096        10272/196608   ( 5.2%) 
+brushes               4093/16384       49116/196608   (25.0%) 
+brushsides           37236/65536      297888/524288   (56.8%) 
+planes               29740/65536      594800/1310720  (45.4%) 
+vertexes             28607/65536      343284/786432   (43.7%) 
+nodes                 3069/65536       98208/2097152  ( 4.7%) 
+texinfos              7281/12288      524232/884736   (59.3%) 
+texdata                525/2048        16800/65536    (25.6%) 
+dispinfos              219/0           38544/0        ( 0.0%) 
+disp_verts            7491/0          149820/0        ( 0.0%) 
+disp_tris            10464/0           20928/0        ( 0.0%) 
+disp_lmsamples      190960/0          190960/0        ( 0.0%) 
+faces                15865/65536      888440/3670016  (24.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            14353/65536      803768/3670016  (21.9%) 
+leaves                3284/65536      105088/2097152  ( 5.0%) 
+leaffaces            18937/65536       37874/131072   (28.9%) 
+leafbrushes           6293/65536       12586/131072   ( 9.6%) 
+areas                   23/1024          184/8192     ( 2.2%) 
+surfedges           134665/512000     538660/2048000  (26.3%) 
+edges                85480/256000     341920/1024000  (33.4%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1568/32768       15680/327680   ( 4.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         35067/65536       70134/131072   (53.5%) 
+cubemapsamples          62/1024          992/16384    ( 6.1%) 
+overlays                30/512         10560/180224   ( 5.9%) 
+LDR lightdata         [variable]     4790284/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      132317/16777216 ( 0.8%) 
+entdata               [variable]      299442/393216   (76.2%) 
+LDR ambient table     3284/65536       13136/262144   ( 5.0%) 
+HDR ambient table     3284/65536       13136/262144   ( 5.0%) 
+LDR leaf ambient      7913/65536      221564/1835008  (12.1%) 
+HDR leaf ambient      3284/65536       91952/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/144764   ( 0.0%) 
+dtl prp lght          [variable]           1/154      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/51630    ( 0.0%) 
+pakfile               [variable]      138268/0        ( 0.0%) 
+physics               [variable]     1719364/4194304  (41.0%) 
+physics terrain       [variable]       40911/1048576  ( 3.9%) 
+
+Level flags = 0
+
+Total triangle count: 45024
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+21 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop tiles for material ZPCUSTOMMATERIALS/FLOOR/ZPS_FLOORTILES003_GAR, using default
+Patching WVT material: maps/zs_cabin_dfr_v5a/harvest/slimz/blend_rockgrass01_tool_wvt_patch
+Patching WVT material: maps/zs_cabin_dfr_v5a/necrotales/blendgrassgravel001a_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2098 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.prt...Building visibility clusters...
+done (0)
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1719364 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15526 texinfos to 7281
+Reduced 588 texdatas to 525 (28258 bytes to 26039)
+Writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.bsp
+7 seconds elapsed
+
+
+
+16 threads
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.prt
+ 731 portalclusters
+2055 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1159 visible clusters (0.43%)
+Total clusters visible: 268814
+Average clusters visible: 367
+Building PAS...
+Average clusters audible: 686
+visdatasize:132317  compressed from 140352
+writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+PREP OK
+15865 faces
+61 degenerate faces
+585136 square feet [84259720.00 square inches]
+219 Displacements
+67299 Square Feet [9691172.00 Square Inches]
+15804 patches before subdivision
+72154 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10126981, max 1684
+transfer lists:  77.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(89540, 64376, 32529)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19249, 12599, 5456)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4934, 3146, 1122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1401, 902, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(452, 302, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(161, 113, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(63, 46, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(26, 20, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 9, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0123 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 214/4096        10272/196608   ( 5.2%) 
+brushes               4093/16384       49116/196608   (25.0%) 
+brushsides           37236/65536      297888/524288   (56.8%) 
+planes               29740/65536      594800/1310720  (45.4%) 
+vertexes             28607/65536      343284/786432   (43.7%) 
+nodes                 3069/65536       98208/2097152  ( 4.7%) 
+texinfos              7281/12288      524232/884736   (59.3%) 
+texdata                525/2048        16800/65536    (25.6%) 
+dispinfos              219/0           38544/0        ( 0.0%) 
+disp_verts            7491/0          149820/0        ( 0.0%) 
+disp_tris            10464/0           20928/0        ( 0.0%) 
+disp_lmsamples      190960/0          190960/0        ( 0.0%) 
+faces                15865/65536      888440/3670016  (24.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            14353/65536      803768/3670016  (21.9%) 
+leaves                3284/65536      105088/2097152  ( 5.0%) 
+leaffaces            18937/65536       37874/131072   (28.9%) 
+leafbrushes           6293/65536       12586/131072   ( 9.6%) 
+areas                   23/1024          184/8192     ( 2.2%) 
+surfedges           134665/512000     538660/2048000  (26.3%) 
+edges                85480/256000     341920/1024000  (33.4%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1568/32768       15680/327680   ( 4.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         35067/65536       70134/131072   (53.5%) 
+cubemapsamples          62/1024          992/16384    ( 6.1%) 
+overlays                30/512         10560/180224   ( 5.9%) 
+LDR lightdata         [variable]     4790284/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      132317/16777216 ( 0.8%) 
+entdata               [variable]      299500/393216   (76.2%) 
+LDR ambient table     3284/65536       13136/262144   ( 5.0%) 
+HDR ambient table     3284/65536       13136/262144   ( 5.0%) 
+LDR leaf ambient      7913/65536      221564/1835008  (12.1%) 
+HDR leaf ambient      3284/65536       91952/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/144764   ( 0.0%) 
+dtl prp lght          [variable]           1/154      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/51630    ( 0.0%) 
+pakfile               [variable]      138268/0        ( 0.0%) 
+physics               [variable]     1719364/4194304  (41.0%) 
+physics terrain       [variable]       40911/1048576  ( 3.9%) 
+
+Level flags = 0
+
+Total triangle count: 45024
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+19 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop tiles for material ZPCUSTOMMATERIALS/FLOOR/ZPS_FLOORTILES003_GAR, using default
+Patching WVT material: maps/zs_cabin_dfr_v5a/harvest/slimz/blend_rockgrass01_tool_wvt_patch
+Patching WVT material: maps/zs_cabin_dfr_v5a/necrotales/blendgrassgravel001a_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2098 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.prt...Building visibility clusters...
+done (0)
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1719364 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15526 texinfos to 7281
+Reduced 588 texdatas to 525 (28258 bytes to 26039)
+Writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.bsp
+7 seconds elapsed
+
+
+
+16 threads
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.prt
+ 731 portalclusters
+2055 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1159 visible clusters (0.43%)
+Total clusters visible: 268814
+Average clusters visible: 367
+Building PAS...
+Average clusters audible: 686
+visdatasize:132317  compressed from 140352
+writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+22 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+PREP OK
+15865 faces
+61 degenerate faces
+585136 square feet [84259720.00 square inches]
+219 Displacements
+67299 Square Feet [9691172.00 Square Inches]
+15804 patches before subdivision
+72154 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10126981, max 1684
+transfer lists:  77.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(89540, 64376, 32529)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19249, 12599, 5456)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4934, 3146, 1122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1401, 902, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(452, 302, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(161, 113, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(63, 46, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(26, 20, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 9, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0128 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 214/4096        10272/196608   ( 5.2%) 
+brushes               4093/16384       49116/196608   (25.0%) 
+brushsides           37236/65536      297888/524288   (56.8%) 
+planes               29740/65536      594800/1310720  (45.4%) 
+vertexes             28607/65536      343284/786432   (43.7%) 
+nodes                 3069/65536       98208/2097152  ( 4.7%) 
+texinfos              7281/12288      524232/884736   (59.3%) 
+texdata                525/2048        16800/65536    (25.6%) 
+dispinfos              219/0           38544/0        ( 0.0%) 
+disp_verts            7491/0          149820/0        ( 0.0%) 
+disp_tris            10464/0           20928/0        ( 0.0%) 
+disp_lmsamples      190960/0          190960/0        ( 0.0%) 
+faces                15865/65536      888440/3670016  (24.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            14353/65536      803768/3670016  (21.9%) 
+leaves                3284/65536      105088/2097152  ( 5.0%) 
+leaffaces            18937/65536       37874/131072   (28.9%) 
+leafbrushes           6293/65536       12586/131072   ( 9.6%) 
+areas                   23/1024          184/8192     ( 2.2%) 
+surfedges           134665/512000     538660/2048000  (26.3%) 
+edges                85480/256000     341920/1024000  (33.4%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1568/32768       15680/327680   ( 4.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         35067/65536       70134/131072   (53.5%) 
+cubemapsamples          62/1024          992/16384    ( 6.1%) 
+overlays                30/512         10560/180224   ( 5.9%) 
+LDR lightdata         [variable]     4790284/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      132317/16777216 ( 0.8%) 
+entdata               [variable]      299500/393216   (76.2%) 
+LDR ambient table     3284/65536       13136/262144   ( 5.0%) 
+HDR ambient table     3284/65536       13136/262144   ( 5.0%) 
+LDR leaf ambient      7913/65536      221564/1835008  (12.1%) 
+HDR leaf ambient      3284/65536       91952/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/144764   ( 0.0%) 
+dtl prp lght          [variable]           1/154      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/51630    ( 0.0%) 
+pakfile               [variable]      138268/0        ( 0.0%) 
+physics               [variable]     1719364/4194304  (41.0%) 
+physics terrain       [variable]       40911/1048576  ( 3.9%) 
+
+Level flags = 0
+
+Total triangle count: 45024
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+20 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop tiles for material ZPCUSTOMMATERIALS/FLOOR/ZPS_FLOORTILES003_GAR, using default
+Patching WVT material: maps/zs_cabin_dfr_v5a/harvest/slimz/blend_rockgrass01_tool_wvt_patch
+Patching WVT material: maps/zs_cabin_dfr_v5a/necrotales/blendgrassgravel001a_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2098 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.prt...Building visibility clusters...
+done (0)
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1719364 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15526 texinfos to 7281
+Reduced 588 texdatas to 525 (28258 bytes to 26039)
+Writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.bsp
+6 seconds elapsed
+
+
+
+16 threads
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.prt
+ 731 portalclusters
+2055 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1159 visible clusters (0.43%)
+Total clusters visible: 268814
+Average clusters visible: 367
+Building PAS...
+Average clusters audible: 686
+visdatasize:132317  compressed from 140352
+writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+PREP OK
+15865 faces
+61 degenerate faces
+585136 square feet [84259720.00 square inches]
+219 Displacements
+67299 Square Feet [9691172.00 Square Inches]
+15804 patches before subdivision
+72154 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10126981, max 1684
+transfer lists:  77.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(89540, 64376, 32529)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19249, 12599, 5456)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4934, 3146, 1122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1401, 902, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(452, 302, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(161, 113, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(63, 46, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(26, 20, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(11, 9, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(5, 4, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(2, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0118 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 214/4096        10272/196608   ( 5.2%) 
+brushes               4093/16384       49116/196608   (25.0%) 
+brushsides           37236/65536      297888/524288   (56.8%) 
+planes               29740/65536      594800/1310720  (45.4%) 
+vertexes             28607/65536      343284/786432   (43.7%) 
+nodes                 3069/65536       98208/2097152  ( 4.7%) 
+texinfos              7281/12288      524232/884736   (59.3%) 
+texdata                525/2048        16800/65536    (25.6%) 
+dispinfos              219/0           38544/0        ( 0.0%) 
+disp_verts            7491/0          149820/0        ( 0.0%) 
+disp_tris            10464/0           20928/0        ( 0.0%) 
+disp_lmsamples      190960/0          190960/0        ( 0.0%) 
+faces                15865/65536      888440/3670016  (24.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            14353/65536      803768/3670016  (21.9%) 
+leaves                3284/65536      105088/2097152  ( 5.0%) 
+leaffaces            18937/65536       37874/131072   (28.9%) 
+leafbrushes           6293/65536       12586/131072   ( 9.6%) 
+areas                   23/1024          184/8192     ( 2.2%) 
+surfedges           134665/512000     538660/2048000  (26.3%) 
+edges                85480/256000     341920/1024000  (33.4%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1568/32768       15680/327680   ( 4.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         35067/65536       70134/131072   (53.5%) 
+cubemapsamples          62/1024          992/16384    ( 6.1%) 
+overlays                30/512         10560/180224   ( 5.9%) 
+LDR lightdata         [variable]     4790284/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      132317/16777216 ( 0.8%) 
+entdata               [variable]      299500/393216   (76.2%) 
+LDR ambient table     3284/65536       13136/262144   ( 5.0%) 
+HDR ambient table     3284/65536       13136/262144   ( 5.0%) 
+LDR leaf ambient      7913/65536      221564/1835008  (12.1%) 
+HDR leaf ambient      3284/65536       91952/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/144764   ( 0.0%) 
+dtl prp lght          [variable]           1/154      ( 0.6%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/51630    ( 0.0%) 
+pakfile               [variable]      138268/0        ( 0.0%) 
+physics               [variable]     1719364/4194304  (41.0%) 
+physics terrain       [variable]       40911/1048576  ( 3.9%) 
+
+Level flags = 0
+
+Total triangle count: 45024
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+19 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop tiles for material ZPCUSTOMMATERIALS/FLOOR/ZPS_FLOORTILES003_GAR, using default
+Patching WVT material: maps/zs_cabin_dfr_v5a/harvest/slimz/blend_rockgrass01_tool_wvt_patch
+Patching WVT material: maps/zs_cabin_dfr_v5a/necrotales/blendgrassgravel001a_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2098 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.prt...Building visibility clusters...
+done (0)
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1719364 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15526 texinfos to 7281
+Reduced 588 texdatas to 525 (28258 bytes to 26039)
+Writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.bsp
+6 seconds elapsed
+
+
+
+16 threads
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.prt
+ 731 portalclusters
+2055 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1157 visible clusters (0.43%)
+Total clusters visible: 268812
+Average clusters visible: 367
+Building PAS...
+Average clusters audible: 686
+visdatasize:132317  compressed from 140352
+writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+PREP OK
+15865 faces
+61 degenerate faces
+585136 square feet [84259720.00 square inches]
+219 Displacements
+67299 Square Feet [9691172.00 Square Inches]
+15804 patches before subdivision
+72154 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10126981, max 1684
+transfer lists:  77.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(89702, 64517, 32529)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19339, 12677, 5456)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4981, 3188, 1122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1427, 926, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(466, 315, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(168, 120, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(67, 50, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(28, 22, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0116 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 214/4096        10272/196608   ( 5.2%) 
+brushes               4093/16384       49116/196608   (25.0%) 
+brushsides           37236/65536      297888/524288   (56.8%) 
+planes               29740/65536      594800/1310720  (45.4%) 
+vertexes             28607/65536      343284/786432   (43.7%) 
+nodes                 3069/65536       98208/2097152  ( 4.7%) 
+texinfos              7281/12288      524232/884736   (59.3%) 
+texdata                525/2048        16800/65536    (25.6%) 
+dispinfos              219/0           38544/0        ( 0.0%) 
+disp_verts            7491/0          149820/0        ( 0.0%) 
+disp_tris            10464/0           20928/0        ( 0.0%) 
+disp_lmsamples      190960/0          190960/0        ( 0.0%) 
+faces                15865/65536      888440/3670016  (24.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            14353/65536      803768/3670016  (21.9%) 
+leaves                3284/65536      105088/2097152  ( 5.0%) 
+leaffaces            18937/65536       37874/131072   (28.9%) 
+leafbrushes           6293/65536       12586/131072   ( 9.6%) 
+areas                   23/1024          184/8192     ( 2.2%) 
+surfedges           134665/512000     538660/2048000  (26.3%) 
+edges                85480/256000     341920/1024000  (33.4%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1568/32768       15680/327680   ( 4.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         35067/65536       70134/131072   (53.5%) 
+cubemapsamples          62/1024          992/16384    ( 6.1%) 
+overlays                30/512         10560/180224   ( 5.9%) 
+LDR lightdata         [variable]     4779584/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      132317/16777216 ( 0.8%) 
+entdata               [variable]      299507/393216   (76.2%) 
+LDR ambient table     3284/65536       13136/262144   ( 5.0%) 
+HDR ambient table     3284/65536       13136/262144   ( 5.0%) 
+LDR leaf ambient      7916/65536      221648/1835008  (12.1%) 
+HDR leaf ambient      3284/65536       91952/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/144764   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/51630    ( 0.0%) 
+pakfile               [variable]      138268/0        ( 0.0%) 
+physics               [variable]     1719364/4194304  (41.0%) 
+physics terrain       [variable]       40911/1048576  ( 3.9%) 
+
+Level flags = 0
+
+Total triangle count: 45024
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+20 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop tiles for material ZPCUSTOMMATERIALS/FLOOR/ZPS_FLOORTILES003_GAR, using default
+Patching WVT material: maps/zs_cabin_dfr_v5a/harvest/slimz/blend_rockgrass01_tool_wvt_patch
+Patching WVT material: maps/zs_cabin_dfr_v5a/necrotales/blendgrassgravel001a_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2098 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.prt...Building visibility clusters...
+done (0)
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1719364 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15526 texinfos to 7281
+Reduced 588 texdatas to 525 (28258 bytes to 26039)
+Writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.bsp
+7 seconds elapsed
+
+
+
+16 threads
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.prt
+ 731 portalclusters
+2055 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1158 visible clusters (0.43%)
+Total clusters visible: 268813
+Average clusters visible: 367
+Building PAS...
+Average clusters audible: 686
+visdatasize:132317  compressed from 140352
+writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+PREP OK
+15865 faces
+61 degenerate faces
+585136 square feet [84259720.00 square inches]
+219 Displacements
+67299 Square Feet [9691172.00 Square Inches]
+15804 patches before subdivision
+72154 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10126981, max 1684
+transfer lists:  77.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(89702, 64517, 32529)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19339, 12677, 5456)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4981, 3188, 1122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1427, 926, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(466, 315, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(168, 120, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(67, 50, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(28, 22, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0125 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 214/4096        10272/196608   ( 5.2%) 
+brushes               4093/16384       49116/196608   (25.0%) 
+brushsides           37236/65536      297888/524288   (56.8%) 
+planes               29740/65536      594800/1310720  (45.4%) 
+vertexes             28607/65536      343284/786432   (43.7%) 
+nodes                 3069/65536       98208/2097152  ( 4.7%) 
+texinfos              7281/12288      524232/884736   (59.3%) 
+texdata                525/2048        16800/65536    (25.6%) 
+dispinfos              219/0           38544/0        ( 0.0%) 
+disp_verts            7491/0          149820/0        ( 0.0%) 
+disp_tris            10464/0           20928/0        ( 0.0%) 
+disp_lmsamples      190960/0          190960/0        ( 0.0%) 
+faces                15865/65536      888440/3670016  (24.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            14353/65536      803768/3670016  (21.9%) 
+leaves                3284/65536      105088/2097152  ( 5.0%) 
+leaffaces            18937/65536       37874/131072   (28.9%) 
+leafbrushes           6293/65536       12586/131072   ( 9.6%) 
+areas                   23/1024          184/8192     ( 2.2%) 
+surfedges           134665/512000     538660/2048000  (26.3%) 
+edges                85480/256000     341920/1024000  (33.4%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1568/32768       15680/327680   ( 4.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         35067/65536       70134/131072   (53.5%) 
+cubemapsamples          62/1024          992/16384    ( 6.1%) 
+overlays                30/512         10560/180224   ( 5.9%) 
+LDR lightdata         [variable]     4779584/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      132317/16777216 ( 0.8%) 
+entdata               [variable]      299507/393216   (76.2%) 
+LDR ambient table     3284/65536       13136/262144   ( 5.0%) 
+HDR ambient table     3284/65536       13136/262144   ( 5.0%) 
+LDR leaf ambient      7916/65536      221648/1835008  (12.1%) 
+HDR leaf ambient      3284/65536       91952/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/144764   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/51630    ( 0.0%) 
+pakfile               [variable]      138268/0        ( 0.0%) 
+physics               [variable]     1719364/4194304  (41.0%) 
+physics terrain       [variable]       40911/1048576  ( 3.9%) 
+
+Level flags = 0
+
+Total triangle count: 45024
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+20 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop tiles for material ZPCUSTOMMATERIALS/FLOOR/ZPS_FLOORTILES003_GAR, using default
+Patching WVT material: maps/zs_cabin_dfr_v5a/harvest/slimz/blend_rockgrass01_tool_wvt_patch
+Patching WVT material: maps/zs_cabin_dfr_v5a/necrotales/blendgrassgravel001a_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2098 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.prt...Building visibility clusters...
+done (0)
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1718266 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15504 texinfos to 7276
+Reduced 586 texdatas to 523 (28149 bytes to 25930)
+Writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.bsp
+6 seconds elapsed
+
+
+
+16 threads
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.prt
+ 731 portalclusters
+2055 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1157 visible clusters (0.43%)
+Total clusters visible: 268812
+Average clusters visible: 367
+Building PAS...
+Average clusters audible: 686
+visdatasize:132317  compressed from 140352
+writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+PREP OK
+15860 faces
+61 degenerate faces
+585039 square feet [84245656.00 square inches]
+219 Displacements
+67299 Square Feet [9691172.00 Square Inches]
+15799 patches before subdivision
+72141 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10125063, max 1684
+transfer lists:  77.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(89646, 64485, 32529)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19324, 12671, 5456)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4977, 3187, 1122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1426, 925, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(466, 315, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(168, 120, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(67, 50, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(28, 22, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0116 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 212/4096        10176/196608   ( 5.2%) 
+brushes               4091/16384       49092/196608   (25.0%) 
+brushsides           37224/65536      297792/524288   (56.8%) 
+planes               29736/65536      594720/1310720  (45.4%) 
+vertexes             28591/65536      343092/786432   (43.6%) 
+nodes                 3057/65536       97824/2097152  ( 4.7%) 
+texinfos              7276/12288      523872/884736   (59.2%) 
+texdata                523/2048        16736/65536    (25.5%) 
+dispinfos              219/0           38544/0        ( 0.0%) 
+disp_verts            7491/0          149820/0        ( 0.0%) 
+disp_tris            10464/0           20928/0        ( 0.0%) 
+disp_lmsamples      190960/0          190960/0        ( 0.0%) 
+faces                15860/65536      888160/3670016  (24.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            14348/65536      803488/3670016  (21.9%) 
+leaves                3270/65536      104640/2097152  ( 5.0%) 
+leaffaces            18932/65536       37864/131072   (28.9%) 
+leafbrushes           6291/65536       12582/131072   ( 9.6%) 
+areas                   23/1024          184/8192     ( 2.2%) 
+surfedges           134625/512000     538500/2048000  (26.3%) 
+edges                85456/256000     341824/1024000  (33.4%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1568/32768       15680/327680   ( 4.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         35067/65536       70134/131072   (53.5%) 
+cubemapsamples          62/1024          992/16384    ( 6.1%) 
+overlays                30/512         10560/180224   ( 5.9%) 
+LDR lightdata         [variable]     4776956/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      132317/16777216 ( 0.8%) 
+entdata               [variable]      298223/393216   (75.8%) 
+LDR ambient table     3270/65536       13080/262144   ( 5.0%) 
+HDR ambient table     3270/65536       13080/262144   ( 5.0%) 
+LDR leaf ambient      7904/65536      221312/1835008  (12.1%) 
+HDR leaf ambient      3270/65536       91560/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/144764   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/51630    ( 0.0%) 
+pakfile               [variable]      137575/0        ( 0.0%) 
+physics               [variable]     1718266/4194304  (41.0%) 
+physics terrain       [variable]       40911/1048576  ( 3.9%) 
+
+Level flags = 0
+
+Total triangle count: 45014
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+20 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop tiles for material ZPCUSTOMMATERIALS/FLOOR/ZPS_FLOORTILES003_GAR, using default
+Patching WVT material: maps/zs_cabin_dfr_v5a/harvest/slimz/blend_rockgrass01_tool_wvt_patch
+Patching WVT material: maps/zs_cabin_dfr_v5a/necrotales/blendgrassgravel001a_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2098 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.prt...Building visibility clusters...
+done (0)
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1718266 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15504 texinfos to 7276
+Reduced 586 texdatas to 523 (28149 bytes to 25930)
+Writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.bsp
+6 seconds elapsed
+
+
+
+16 threads
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.prt
+ 731 portalclusters
+2055 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1157 visible clusters (0.43%)
+Total clusters visible: 268812
+Average clusters visible: 367
+Building PAS...
+Average clusters audible: 686
+visdatasize:132317  compressed from 140352
+writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+PREP OK
+15860 faces
+61 degenerate faces
+585039 square feet [84245656.00 square inches]
+219 Displacements
+67299 Square Feet [9691172.00 Square Inches]
+15799 patches before subdivision
+72141 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10125063, max 1684
+transfer lists:  77.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(89646, 64485, 32529)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19324, 12671, 5456)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4977, 3187, 1122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1426, 925, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(466, 315, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(168, 120, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(67, 50, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(28, 22, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0119 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 212/4096        10176/196608   ( 5.2%) 
+brushes               4091/16384       49092/196608   (25.0%) 
+brushsides           37224/65536      297792/524288   (56.8%) 
+planes               29736/65536      594720/1310720  (45.4%) 
+vertexes             28591/65536      343092/786432   (43.6%) 
+nodes                 3057/65536       97824/2097152  ( 4.7%) 
+texinfos              7276/12288      523872/884736   (59.2%) 
+texdata                523/2048        16736/65536    (25.5%) 
+dispinfos              219/0           38544/0        ( 0.0%) 
+disp_verts            7491/0          149820/0        ( 0.0%) 
+disp_tris            10464/0           20928/0        ( 0.0%) 
+disp_lmsamples      190960/0          190960/0        ( 0.0%) 
+faces                15860/65536      888160/3670016  (24.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            14348/65536      803488/3670016  (21.9%) 
+leaves                3270/65536      104640/2097152  ( 5.0%) 
+leaffaces            18932/65536       37864/131072   (28.9%) 
+leafbrushes           6291/65536       12582/131072   ( 9.6%) 
+areas                   23/1024          184/8192     ( 2.2%) 
+surfedges           134625/512000     538500/2048000  (26.3%) 
+edges                85456/256000     341824/1024000  (33.4%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1568/32768       15680/327680   ( 4.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         35067/65536       70134/131072   (53.5%) 
+cubemapsamples          62/1024          992/16384    ( 6.1%) 
+overlays                30/512         10560/180224   ( 5.9%) 
+LDR lightdata         [variable]     4776956/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      132317/16777216 ( 0.8%) 
+entdata               [variable]      298302/393216   (75.9%) 
+LDR ambient table     3270/65536       13080/262144   ( 5.0%) 
+HDR ambient table     3270/65536       13080/262144   ( 5.0%) 
+LDR leaf ambient      7904/65536      221312/1835008  (12.1%) 
+HDR leaf ambient      3270/65536       91560/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/144764   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/51630    ( 0.0%) 
+pakfile               [variable]      137575/0        ( 0.0%) 
+physics               [variable]     1718266/4194304  (41.0%) 
+physics terrain       [variable]       40911/1048576  ( 3.9%) 
+
+Level flags = 0
+
+Total triangle count: 45014
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+20 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop tiles for material ZPCUSTOMMATERIALS/FLOOR/ZPS_FLOORTILES003_GAR, using default
+Patching WVT material: maps/zs_cabin_dfr_v5a/harvest/slimz/blend_rockgrass01_tool_wvt_patch
+Patching WVT material: maps/zs_cabin_dfr_v5a/necrotales/blendgrassgravel001a_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2098 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.prt...Building visibility clusters...
+done (0)
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1718266 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15504 texinfos to 7276
+Reduced 586 texdatas to 523 (28149 bytes to 25930)
+Writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.bsp
+6 seconds elapsed
+
+
+
+16 threads
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.prt
+ 731 portalclusters
+2055 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1157 visible clusters (0.43%)
+Total clusters visible: 268812
+Average clusters visible: 367
+Building PAS...
+Average clusters audible: 686
+visdatasize:132317  compressed from 140352
+writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+PREP OK
+15860 faces
+61 degenerate faces
+585039 square feet [84245656.00 square inches]
+219 Displacements
+67299 Square Feet [9691172.00 Square Inches]
+15799 patches before subdivision
+72141 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10125063, max 1684
+transfer lists:  77.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(89646, 64485, 32529)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19324, 12671, 5456)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4977, 3187, 1122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1426, 925, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(466, 315, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(168, 120, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(67, 50, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(28, 22, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0116 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 212/4096        10176/196608   ( 5.2%) 
+brushes               4091/16384       49092/196608   (25.0%) 
+brushsides           37224/65536      297792/524288   (56.8%) 
+planes               29736/65536      594720/1310720  (45.4%) 
+vertexes             28591/65536      343092/786432   (43.6%) 
+nodes                 3057/65536       97824/2097152  ( 4.7%) 
+texinfos              7276/12288      523872/884736   (59.2%) 
+texdata                523/2048        16736/65536    (25.5%) 
+dispinfos              219/0           38544/0        ( 0.0%) 
+disp_verts            7491/0          149820/0        ( 0.0%) 
+disp_tris            10464/0           20928/0        ( 0.0%) 
+disp_lmsamples      190960/0          190960/0        ( 0.0%) 
+faces                15860/65536      888160/3670016  (24.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            14348/65536      803488/3670016  (21.9%) 
+leaves                3270/65536      104640/2097152  ( 5.0%) 
+leaffaces            18932/65536       37864/131072   (28.9%) 
+leafbrushes           6291/65536       12582/131072   ( 9.6%) 
+areas                   23/1024          184/8192     ( 2.2%) 
+surfedges           134625/512000     538500/2048000  (26.3%) 
+edges                85456/256000     341824/1024000  (33.4%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1568/32768       15680/327680   ( 4.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         35067/65536       70134/131072   (53.5%) 
+cubemapsamples          62/1024          992/16384    ( 6.1%) 
+overlays                30/512         10560/180224   ( 5.9%) 
+LDR lightdata         [variable]     4776956/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      132317/16777216 ( 0.8%) 
+entdata               [variable]      298302/393216   (75.9%) 
+LDR ambient table     3270/65536       13080/262144   ( 5.0%) 
+HDR ambient table     3270/65536       13080/262144   ( 5.0%) 
+LDR leaf ambient      7904/65536      221312/1835008  (12.1%) 
+HDR leaf ambient      3270/65536       91560/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/144764   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/51630    ( 0.0%) 
+pakfile               [variable]      137575/0        ( 0.0%) 
+physics               [variable]     1718266/4194304  (41.0%) 
+physics terrain       [variable]       40911/1048576  ( 3.9%) 
+
+Level flags = 0
+
+Total triangle count: 45014
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+20 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop tiles for material ZPCUSTOMMATERIALS/FLOOR/ZPS_FLOORTILES003_GAR, using default
+Patching WVT material: maps/zs_cabin_dfr_v5a/harvest/slimz/blend_rockgrass01_tool_wvt_patch
+Patching WVT material: maps/zs_cabin_dfr_v5a/necrotales/blendgrassgravel001a_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2098 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.prt...Building visibility clusters...
+done (0)
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1718266 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15504 texinfos to 7276
+Reduced 586 texdatas to 523 (28149 bytes to 25930)
+Writing C:\Users\g4tyl\Documents\GitHub\ZPSMapRepo\CabinMaps\zs_cabin_dfr_v5a.bsp
+7 seconds elapsed
+
+
+
+16 threads
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.prt
+ 731 portalclusters
+2055 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1157 visible clusters (0.43%)
+Total clusters visible: 268812
+Average clusters visible: 367
+Building PAS...
+Average clusters audible: 686
+visdatasize:132317  compressed from 140352
+writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+PREP OK
+15860 faces
+61 degenerate faces
+585039 square feet [84245656.00 square inches]
+219 Displacements
+67299 Square Feet [9691172.00 Square Inches]
+15799 patches before subdivision
+72141 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10125063, max 1684
+transfer lists:  77.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(89646, 64485, 32529)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19324, 12671, 5456)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4977, 3187, 1122)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1426, 925, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(466, 315, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(168, 120, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(67, 50, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(28, 22, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0117 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 212/4096        10176/196608   ( 5.2%) 
+brushes               4091/16384       49092/196608   (25.0%) 
+brushsides           37224/65536      297792/524288   (56.8%) 
+planes               29736/65536      594720/1310720  (45.4%) 
+vertexes             28591/65536      343092/786432   (43.6%) 
+nodes                 3057/65536       97824/2097152  ( 4.7%) 
+texinfos              7276/12288      523872/884736   (59.2%) 
+texdata                523/2048        16736/65536    (25.5%) 
+dispinfos              219/0           38544/0        ( 0.0%) 
+disp_verts            7491/0          149820/0        ( 0.0%) 
+disp_tris            10464/0           20928/0        ( 0.0%) 
+disp_lmsamples      190960/0          190960/0        ( 0.0%) 
+faces                15860/65536      888160/3670016  (24.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            14348/65536      803488/3670016  (21.9%) 
+leaves                3270/65536      104640/2097152  ( 5.0%) 
+leaffaces            18932/65536       37864/131072   (28.9%) 
+leafbrushes           6291/65536       12582/131072   ( 9.6%) 
+areas                   23/1024          184/8192     ( 2.2%) 
+surfedges           134625/512000     538500/2048000  (26.3%) 
+edges                85456/256000     341824/1024000  (33.4%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1568/32768       15680/327680   ( 4.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         35067/65536       70134/131072   (53.5%) 
+cubemapsamples          62/1024          992/16384    ( 6.1%) 
+overlays                30/512         10560/180224   ( 5.9%) 
+LDR lightdata         [variable]     4776956/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      132317/16777216 ( 0.8%) 
+entdata               [variable]      298272/393216   (75.9%) 
+LDR ambient table     3270/65536       13080/262144   ( 5.0%) 
+HDR ambient table     3270/65536       13080/262144   ( 5.0%) 
+LDR leaf ambient      7904/65536      221312/1835008  (12.1%) 
+HDR leaf ambient      3270/65536       91560/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/144764   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/51630    ( 0.0%) 
+pakfile               [variable]      137575/0        ( 0.0%) 
+physics               [variable]     1718266/4194304  (41.0%) 
+physics terrain       [variable]       40911/1048576  ( 3.9%) 
+
+Level flags = 0
+
+Total triangle count: 45014
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+20 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop tiles for material ZPCUSTOMMATERIALS/FLOOR/ZPS_FLOORTILES003_GAR, using default
+Patching WVT material: maps/zs_cabin_dfr_v5a/harvest/slimz/blend_rockgrass01_tool_wvt_patch
+Patching WVT material: maps/zs_cabin_dfr_v5a/necrotales/blendgrassgravel001a_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2098 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.prt...Building visibility clusters...
+done (0)
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1718266 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15504 texinfos to 7276
+Reduced 586 texdatas to 523 (28149 bytes to 25930)
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+6 seconds elapsed
+
+
+
+16 threads
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.prt
+ 731 portalclusters
+2055 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1157 visible clusters (0.43%)
+Total clusters visible: 268812
+Average clusters visible: 367
+Building PAS...
+Average clusters audible: 686
+visdatasize:132317  compressed from 140352
+writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+PREP OK
+15860 faces
+61 degenerate faces
+585039 square feet [84245656.00 square inches]
+219 Displacements
+67299 Square Feet [9691172.00 Square Inches]
+15799 patches before subdivision
+72141 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10125063, max 1684
+transfer lists:  77.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(89636, 64476, 32520)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19323, 12670, 5455)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4977, 3187, 1121)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1426, 925, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(466, 315, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(168, 120, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(67, 50, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(28, 22, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0115 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 212/4096        10176/196608   ( 5.2%) 
+brushes               4091/16384       49092/196608   (25.0%) 
+brushsides           37224/65536      297792/524288   (56.8%) 
+planes               29736/65536      594720/1310720  (45.4%) 
+vertexes             28591/65536      343092/786432   (43.6%) 
+nodes                 3057/65536       97824/2097152  ( 4.7%) 
+texinfos              7276/12288      523872/884736   (59.2%) 
+texdata                523/2048        16736/65536    (25.5%) 
+dispinfos              219/0           38544/0        ( 0.0%) 
+disp_verts            7491/0          149820/0        ( 0.0%) 
+disp_tris            10464/0           20928/0        ( 0.0%) 
+disp_lmsamples      190960/0          190960/0        ( 0.0%) 
+faces                15860/65536      888160/3670016  (24.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            14348/65536      803488/3670016  (21.9%) 
+leaves                3270/65536      104640/2097152  ( 5.0%) 
+leaffaces            18932/65536       37864/131072   (28.9%) 
+leafbrushes           6291/65536       12582/131072   ( 9.6%) 
+areas                   23/1024          184/8192     ( 2.2%) 
+surfedges           134625/512000     538500/2048000  (26.3%) 
+edges                85456/256000     341824/1024000  (33.4%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1568/32768       15680/327680   ( 4.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         35067/65536       70134/131072   (53.5%) 
+cubemapsamples          62/1024          992/16384    ( 6.1%) 
+overlays                30/512         10560/180224   ( 5.9%) 
+LDR lightdata         [variable]     4776956/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      132317/16777216 ( 0.8%) 
+entdata               [variable]      298272/393216   (75.9%) 
+LDR ambient table     3270/65536       13080/262144   ( 5.0%) 
+HDR ambient table     3270/65536       13080/262144   ( 5.0%) 
+LDR leaf ambient      7899/65536      221172/1835008  (12.1%) 
+HDR leaf ambient      3270/65536       91560/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/144764   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/51630    ( 0.0%) 
+pakfile               [variable]      137575/0        ( 0.0%) 
+physics               [variable]     1718266/4194304  (41.0%) 
+physics terrain       [variable]       40911/1048576  ( 3.9%) 
+
+Level flags = 0
+
+Total triangle count: 45014
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+37 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+PREP OK
+15860 faces
+61 degenerate faces
+585039 square feet [84245656.00 square inches]
+219 Displacements
+67299 Square Feet [9691172.00 Square Inches]
+15799 patches before subdivision
+72141 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10125063, max 1684
+transfer lists:  77.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(82942, 58508, 23649)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(18206, 11720, 4148)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4781, 3027, 917)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1390, 897, 234)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(459, 310, 68)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(167, 119, 22)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(66, 50, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(28, 22, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0200 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 212/4096        10176/196608   ( 5.2%) 
+brushes               4091/16384       49092/196608   (25.0%) 
+brushsides           37224/65536      297792/524288   (56.8%) 
+planes               29736/65536      594720/1310720  (45.4%) 
+vertexes             28591/65536      343092/786432   (43.6%) 
+nodes                 3057/65536       97824/2097152  ( 4.7%) 
+texinfos              7276/12288      523872/884736   (59.2%) 
+texdata                523/2048        16736/65536    (25.5%) 
+dispinfos              219/0           38544/0        ( 0.0%) 
+disp_verts            7491/0          149820/0        ( 0.0%) 
+disp_tris            10464/0           20928/0        ( 0.0%) 
+disp_lmsamples      190960/0          190960/0        ( 0.0%) 
+faces                15860/65536      888160/3670016  (24.2%) 
+hdr faces            15860/65536      888160/3670016  (24.2%) 
+origfaces            14348/65536      803488/3670016  (21.9%) 
+leaves                3270/65536      104640/2097152  ( 5.0%) 
+leaffaces            18932/65536       37864/131072   (28.9%) 
+leafbrushes           6291/65536       12582/131072   ( 9.6%) 
+areas                   23/1024          184/8192     ( 2.2%) 
+surfedges           134625/512000     538500/2048000  (26.3%) 
+edges                85456/256000     341824/1024000  (33.4%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights         94/8192         8272/720896   ( 1.1%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1568/32768       15680/327680   ( 4.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         35067/65536       70134/131072   (53.5%) 
+cubemapsamples          62/1024          992/16384    ( 6.1%) 
+overlays                30/512         10560/180224   ( 5.9%) 
+LDR lightdata         [variable]     4776956/0        ( 0.0%) 
+HDR lightdata         [variable]     4776956/0        ( 0.0%) 
+visdata               [variable]      132317/16777216 ( 0.8%) 
+entdata               [variable]      298272/393216   (75.9%) 
+LDR ambient table     3270/65536       13080/262144   ( 5.0%) 
+HDR ambient table     3270/65536       13080/262144   ( 5.0%) 
+LDR leaf ambient      7899/65536      221172/1835008  (12.1%) 
+HDR leaf ambient      7771/65536      217588/1835008  (11.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/144764   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/51630    ( 0.0%) 
+pakfile               [variable]      137575/0        ( 0.0%) 
+physics               [variable]     1718266/4194304  (41.0%) 
+physics terrain       [variable]       40911/1048576  ( 3.9%) 
+
+Level flags = 0
+
+Total triangle count: 45014
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+36 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop tiles for material ZPCUSTOMMATERIALS/FLOOR/ZPS_FLOORTILES003_GAR, using default
+Patching WVT material: maps/zs_cabin_dfr_v5a/harvest/slimz/blend_rockgrass01_tool_wvt_patch
+Patching WVT material: maps/zs_cabin_dfr_v5a/necrotales/blendgrassgravel001a_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2124 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.prt...Building visibility clusters...
+done (0)
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1718266 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 13794 texinfos to 6955
+Reduced 225 texdatas to 205 (6472 bytes to 5543)
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+5 seconds elapsed
+
+
+
+16 threads
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.prt
+ 731 portalclusters
+2055 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1157 visible clusters (0.43%)
+Total clusters visible: 268812
+Average clusters visible: 367
+Building PAS...
+Average clusters audible: 686
+visdatasize:132317  compressed from 140352
+writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+20 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+PREP OK
+15846 faces
+61 degenerate faces
+585039 square feet [84245656.00 square inches]
+219 Displacements
+67299 Square Feet [9691172.00 Square Inches]
+15785 patches before subdivision
+72017 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10073657, max 1685
+transfer lists:  76.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(89270, 64224, 32295)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19238, 12621, 5415)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4958, 3178, 1115)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1421, 923, 266)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(465, 315, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(168, 120, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(67, 50, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(28, 22, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0123 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 212/4096        10176/196608   ( 5.2%) 
+brushes               4091/16384       49092/196608   (25.0%) 
+brushsides           37224/65536      297792/524288   (56.8%) 
+planes               29736/65536      594720/1310720  (45.4%) 
+vertexes             28598/65536      343176/786432   (43.6%) 
+nodes                 3057/65536       97824/2097152  ( 4.7%) 
+texinfos              6955/12288      500760/884736   (56.6%) 
+texdata                205/2048         6560/65536    (10.0%) 
+dispinfos              219/0           38544/0        ( 0.0%) 
+disp_verts            7491/0          149820/0        ( 0.0%) 
+disp_tris            10464/0           20928/0        ( 0.0%) 
+disp_lmsamples      190960/0          190960/0        ( 0.0%) 
+faces                15846/65536      887376/3670016  (24.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            14334/65536      802704/3670016  (21.9%) 
+leaves                3270/65536      104640/2097152  ( 5.0%) 
+leaffaces            18920/65536       37840/131072   (28.9%) 
+leafbrushes           6291/65536       12582/131072   ( 9.6%) 
+areas                   23/1024          184/8192     ( 2.2%) 
+surfedges           134546/512000     538184/2048000  (26.3%) 
+edges                85423/256000     341692/1024000  (33.4%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1577/32768       15770/327680   ( 4.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         35232/65536       70464/131072   (53.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                30/512         10560/180224   ( 5.9%) 
+LDR lightdata         [variable]     4761844/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      132317/16777216 ( 0.8%) 
+entdata               [variable]      298272/393216   (75.9%) 
+LDR ambient table     3270/65536       13080/262144   ( 5.0%) 
+HDR ambient table     3270/65536       13080/262144   ( 5.0%) 
+LDR leaf ambient      7899/65536      221172/1835008  (12.1%) 
+HDR leaf ambient      3270/65536       91560/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/144764   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/51630    ( 0.0%) 
+pakfile               [variable]        5600/0        ( 0.0%) 
+physics               [variable]     1718266/4194304  (41.0%) 
+physics terrain       [variable]       40911/1048576  ( 3.9%) 
+
+Level flags = 0
+
+Total triangle count: 45018
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+36 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+PREP OK
+15846 faces
+61 degenerate faces
+585039 square feet [84245656.00 square inches]
+219 Displacements
+67299 Square Feet [9691172.00 Square Inches]
+15785 patches before subdivision
+72017 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10073657, max 1685
+transfer lists:  76.9 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(82723, 58379, 23613)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(18151, 11695, 4142)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4768, 3022, 916)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1386, 896, 234)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(458, 310, 68)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(167, 119, 22)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(66, 50, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(28, 22, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0163 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 212/4096        10176/196608   ( 5.2%) 
+brushes               4091/16384       49092/196608   (25.0%) 
+brushsides           37224/65536      297792/524288   (56.8%) 
+planes               29736/65536      594720/1310720  (45.4%) 
+vertexes             28598/65536      343176/786432   (43.6%) 
+nodes                 3057/65536       97824/2097152  ( 4.7%) 
+texinfos              6955/12288      500760/884736   (56.6%) 
+texdata                205/2048         6560/65536    (10.0%) 
+dispinfos              219/0           38544/0        ( 0.0%) 
+disp_verts            7491/0          149820/0        ( 0.0%) 
+disp_tris            10464/0           20928/0        ( 0.0%) 
+disp_lmsamples      190960/0          190960/0        ( 0.0%) 
+faces                15846/65536      887376/3670016  (24.2%) 
+hdr faces            15846/65536      887376/3670016  (24.2%) 
+origfaces            14334/65536      802704/3670016  (21.9%) 
+leaves                3270/65536      104640/2097152  ( 5.0%) 
+leaffaces            18920/65536       37840/131072   (28.9%) 
+leafbrushes           6291/65536       12582/131072   ( 9.6%) 
+areas                   23/1024          184/8192     ( 2.2%) 
+surfedges           134546/512000     538184/2048000  (26.3%) 
+edges                85423/256000     341692/1024000  (33.4%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights         94/8192         8272/720896   ( 1.1%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1577/32768       15770/327680   ( 4.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         35232/65536       70464/131072   (53.8%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                30/512         10560/180224   ( 5.9%) 
+LDR lightdata         [variable]     4761844/0        ( 0.0%) 
+HDR lightdata         [variable]     4761844/0        ( 0.0%) 
+visdata               [variable]      132317/16777216 ( 0.8%) 
+entdata               [variable]      298272/393216   (75.9%) 
+LDR ambient table     3270/65536       13080/262144   ( 5.0%) 
+HDR ambient table     3270/65536       13080/262144   ( 5.0%) 
+LDR leaf ambient      7899/65536      221172/1835008  (12.1%) 
+HDR leaf ambient      7775/65536      217700/1835008  (11.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/144764   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/51630    ( 0.0%) 
+pakfile               [variable]        5600/0        ( 0.0%) 
+physics               [variable]     1718266/4194304  (41.0%) 
+physics terrain       [variable]       40911/1048576  ( 3.9%) 
+
+Level flags = 0
+
+Total triangle count: 45018
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+37 seconds elapsed
+
+
+
+materialPath: F:\SteamLibrary\steamapps\common\GarrysMod\garrysmod\materials
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.vmf
+ConVarRef mat_reduceparticles doesn't point to an existing ConVar
+Can't find surfaceprop tiles for material ZPCUSTOMMATERIALS/FLOOR/ZPS_FLOORTILES003_GAR, using default
+Patching WVT material: maps/zs_cabin_dfr_v5a/harvest/slimz/blend_rockgrass01_tool_wvt_patch
+Patching WVT material: maps/zs_cabin_dfr_v5a/necrotales/blendgrassgravel001a_nodetail_wvt_patch
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 2098 detail faces...done (1)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (1)
+writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.prt...Building visibility clusters...
+done (0)
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Can't load skybox file skybox/stars01 to build the default cubemap!
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (1) (1718266 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 15504 texinfos to 7276
+Reduced 586 texdatas to 523 (28149 bytes to 25930)
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+7 seconds elapsed
+
+
+
+16 threads
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+reading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.prt
+ 731 portalclusters
+2055 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 1157 visible clusters (0.43%)
+Total clusters visible: 268812
+Average clusters visible: 367
+Building PAS...
+Average clusters audible: 686
+visdatasize:132317  compressed from 140352
+writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+21 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+PREP OK
+15860 faces
+61 degenerate faces
+585039 square feet [84245656.00 square inches]
+219 Displacements
+67299 Square Feet [9691172.00 Square Inches]
+15799 patches before subdivision
+72141 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10125063, max 1684
+transfer lists:  77.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(89636, 64476, 32520)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(19323, 12670, 5455)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4977, 3187, 1121)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1426, 925, 267)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(466, 315, 74)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(168, 120, 23)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(67, 50, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(28, 22, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0116 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 212/4096        10176/196608   ( 5.2%) 
+brushes               4091/16384       49092/196608   (25.0%) 
+brushsides           37224/65536      297792/524288   (56.8%) 
+planes               29736/65536      594720/1310720  (45.4%) 
+vertexes             28591/65536      343092/786432   (43.6%) 
+nodes                 3057/65536       97824/2097152  ( 4.7%) 
+texinfos              7276/12288      523872/884736   (59.2%) 
+texdata                523/2048        16736/65536    (25.5%) 
+dispinfos              219/0           38544/0        ( 0.0%) 
+disp_verts            7491/0          149820/0        ( 0.0%) 
+disp_tris            10464/0           20928/0        ( 0.0%) 
+disp_lmsamples      190960/0          190960/0        ( 0.0%) 
+faces                15860/65536      888160/3670016  (24.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces            14348/65536      803488/3670016  (21.9%) 
+leaves                3270/65536      104640/2097152  ( 5.0%) 
+leaffaces            18932/65536       37864/131072   (28.9%) 
+leafbrushes           6291/65536       12582/131072   ( 9.6%) 
+areas                   23/1024          184/8192     ( 2.2%) 
+surfedges           134625/512000     538500/2048000  (26.3%) 
+edges                85456/256000     341824/1024000  (33.4%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1568/32768       15680/327680   ( 4.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         35067/65536       70134/131072   (53.5%) 
+cubemapsamples          62/1024          992/16384    ( 6.1%) 
+overlays                30/512         10560/180224   ( 5.9%) 
+LDR lightdata         [variable]     4776956/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]      132317/16777216 ( 0.8%) 
+entdata               [variable]      298272/393216   (75.9%) 
+LDR ambient table     3270/65536       13080/262144   ( 5.0%) 
+HDR ambient table     3270/65536       13080/262144   ( 5.0%) 
+LDR leaf ambient      7899/65536      221172/1835008  (12.1%) 
+HDR leaf ambient      3270/65536       91560/1835008  ( 5.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/144764   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/51630    ( 0.0%) 
+pakfile               [variable]      137575/0        ( 0.0%) 
+physics               [variable]     1718266/4194304  (41.0%) 
+physics terrain       [variable]       40911/1048576  ( 3.9%) 
+
+Level flags = 0
+
+Total triangle count: 45014
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+38 seconds elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+PREP OK
+15860 faces
+61 degenerate faces
+585039 square feet [84245656.00 square inches]
+219 Displacements
+67299 Square Feet [9691172.00 Square Inches]
+15799 patches before subdivision
+72141 patches after subdivision
+94 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 10125063, max 1684
+transfer lists:  77.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(82942, 58508, 23649)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(18206, 11720, 4148)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(4781, 3027, 917)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(1390, 897, 234)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(459, 310, 68)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(167, 119, 22)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(66, 50, 8)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(28, 22, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(13, 10, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(6, 5, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(3, 2, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(1, 1, 0)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 1, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0189 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+Computing detail prop lighting : 0...1...2...3...4...5...6...7...8...9...10
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                 212/4096        10176/196608   ( 5.2%) 
+brushes               4091/16384       49092/196608   (25.0%) 
+brushsides           37224/65536      297792/524288   (56.8%) 
+planes               29736/65536      594720/1310720  (45.4%) 
+vertexes             28591/65536      343092/786432   (43.6%) 
+nodes                 3057/65536       97824/2097152  ( 4.7%) 
+texinfos              7276/12288      523872/884736   (59.2%) 
+texdata                523/2048        16736/65536    (25.5%) 
+dispinfos              219/0           38544/0        ( 0.0%) 
+disp_verts            7491/0          149820/0        ( 0.0%) 
+disp_tris            10464/0           20928/0        ( 0.0%) 
+disp_lmsamples      190960/0          190960/0        ( 0.0%) 
+faces                15860/65536      888160/3670016  (24.2%) 
+hdr faces            15860/65536      888160/3670016  (24.2%) 
+origfaces            14348/65536      803488/3670016  (21.9%) 
+leaves                3270/65536      104640/2097152  ( 5.0%) 
+leaffaces            18932/65536       37864/131072   (28.9%) 
+leafbrushes           6291/65536       12582/131072   ( 9.6%) 
+areas                   23/1024          184/8192     ( 2.2%) 
+surfedges           134625/512000     538500/2048000  (26.3%) 
+edges                85456/256000     341824/1024000  (33.4%) 
+LDR worldlights         94/8192         8272/720896   ( 1.1%) 
+HDR worldlights         94/8192         8272/720896   ( 1.1%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips           1568/32768       15680/327680   ( 4.8%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices         35067/65536       70134/131072   (53.5%) 
+cubemapsamples          62/1024          992/16384    ( 6.1%) 
+overlays                30/512         10560/180224   ( 5.9%) 
+LDR lightdata         [variable]     4776956/0        ( 0.0%) 
+HDR lightdata         [variable]     4776956/0        ( 0.0%) 
+visdata               [variable]      132317/16777216 ( 0.8%) 
+entdata               [variable]      298272/393216   (75.9%) 
+LDR ambient table     3270/65536       13080/262144   ( 5.0%) 
+HDR ambient table     3270/65536       13080/262144   ( 5.0%) 
+LDR leaf ambient      7899/65536      221172/1835008  (12.1%) 
+HDR leaf ambient      7771/65536      217588/1835008  (11.9%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/144764   ( 0.0%) 
+dtl prp lght          [variable]           1/4        (25.0%) 
+HDR dtl prp lght      [variable]           1/4        (25.0%) 
+static props          [variable]           1/51630    ( 0.0%) 
+pakfile               [variable]      137575/0        ( 0.0%) 
+physics               [variable]     1718266/4194304  (41.0%) 
+physics terrain       [variable]       40911/1048576  ( 3.9%) 
+
+Level flags = 0
+
+Total triangle count: 45014
+Writing c:\users\g4tyl\documents\github\zpsmaprepo\cabinmaps\zs_cabin_dfr_v5a.bsp
+37 seconds elapsed
